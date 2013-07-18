@@ -1,0 +1,35 @@
+#chat-form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  input {
+    font-size: 24px;
+  }
+  #chat_input {
+    width: 85%;
+  }
+  input[type=submit] {
+    width: 10%;
+  }
+}
+
+#chats{
+  .chat-alert {
+    background-color:gray;
+  }
+  p {
+    display:inline-block;
+    margin-left: 5px;
+  }
+}
+
+#user-info {
+  position:fixed;
+  border: black;
+  top:0;
+  right:0;
+  background-color: gray;
+
+}
+
